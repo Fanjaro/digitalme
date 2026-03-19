@@ -1,0 +1,328 @@
+{
+  "sample_id": "MY888888",
+  "extraction_time": "2026-03-18 18:41:37",
+  "source_url": "http://10.1.20.128:30080/api/v1/users/by-sample/MY888888",
+  "status": "success",
+  "_UpdatedAt": "2026-03-16T17:15:13.869203+08:00",
+  "_UserCreatedAt": "2025-07-14T18:30:43.492869+08:00",
+  "_birthday": "2000-09-20T00:00:00+08:00",
+  "_id": "7c77ab1e-d410-5450-8528-a35e8821a4e1",
+  "_sampleCollectedAt": "2025-12-02T00:00:00+08:00",
+  "batch": "",
+  "birthday": 969379200000,
+  "bmi": null,
+  "createdAt": 1764604800000,
+  "disease": [
+    "none"
+  ],
+  "disease_other": "",
+  "family_disease": [
+    "none"
+  ],
+  "family_disease_other": "",
+  "height": null,
+  "interest": [
+    "none"
+  ],
+  "interest_other": "",
+  "mobile": "18617021953",
+  "name": "Demo",
+  "rawdata_path": "",
+  "samples": [
+    {
+      "sample_id": "TR888888",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "SY888888",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "ZM999999",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "YC999998",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "SW900279",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "EM888888",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "CR888888",
+      "collected_at": 0
+    },
+    {
+      "sample_id": "KS901068check",
+      "collected_at": 1773652528964,
+      "collected_at_date": "2026-03-16",
+      "collected_at_datetime": "2026-03-16 17:15:28"
+    },
+    {
+      "sample_id": "TR2603131426001",
+      "collected_at": 1773384794739,
+      "collected_at_date": "2026-03-13",
+      "collected_at_datetime": "2026-03-13 14:53:14"
+    },
+    {
+      "sample_id": "EM2603131426001",
+      "collected_at": 1773384784309,
+      "collected_at_date": "2026-03-13",
+      "collected_at_datetime": "2026-03-13 14:53:04"
+    },
+    {
+      "sample_id": "CR2603131426001",
+      "collected_at": 1773384768612,
+      "collected_at_date": "2026-03-13",
+      "collected_at_datetime": "2026-03-13 14:52:48"
+    },
+    {
+      "sample_id": "SZKL2603131106002",
+      "collected_at": 1773376985798,
+      "collected_at_date": "2026-03-13",
+      "collected_at_datetime": "2026-03-13 12:43:05"
+    },
+    {
+      "sample_id": "TY666661",
+      "collected_at": 1773281108532,
+      "collected_at_date": "2026-03-12",
+      "collected_at_datetime": "2026-03-12 10:05:08"
+    },
+    {
+      "sample_id": "ZM888888szkI",
+      "collected_at": 1773110536143,
+      "collected_at_date": "2026-03-10",
+      "collected_at_datetime": "2026-03-10 10:42:16"
+    },
+    {
+      "sample_id": "SW888888szkl",
+      "collected_at": 1773022993448,
+      "collected_at_date": "2026-03-09",
+      "collected_at_datetime": "2026-03-09 10:23:13"
+    },
+    {
+      "sample_id": "CD888888szkl",
+      "collected_at": 1773022987418,
+      "collected_at_date": "2026-03-09",
+      "collected_at_datetime": "2026-03-09 10:23:07"
+    },
+    {
+      "sample_id": "ZM888888szkl",
+      "collected_at": 1773022975539,
+      "collected_at_date": "2026-03-09",
+      "collected_at_datetime": "2026-03-09 10:22:55"
+    },
+    {
+      "sample_id": "MY888888szkl",
+      "collected_at": 1773022965951,
+      "collected_at_date": "2026-03-09",
+      "collected_at_datetime": "2026-03-09 10:22:45"
+    },
+    {
+      "sample_id": "CD000000",
+      "collected_at": 1772506648962,
+      "collected_at_date": "2026-03-03",
+      "collected_at_datetime": "2026-03-03 10:57:28"
+    },
+    {
+      "sample_id": "DR999999",
+      "collected_at": 1772276946767,
+      "collected_at_date": "2026-02-28",
+      "collected_at_datetime": "2026-02-28 19:09:06"
+    },
+    {
+      "sample_id": "SW777777",
+      "collected_at": 1772073551442,
+      "collected_at_date": "2026-02-26",
+      "collected_at_datetime": "2026-02-26 10:39:11"
+    },
+    {
+      "sample_id": "CD999998",
+      "collected_at": 1772014459308,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:14:19"
+    },
+    {
+      "sample_id": "TY999999",
+      "collected_at": 1772014453157,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:14:13"
+    },
+    {
+      "sample_id": "GR999999",
+      "collected_at": 1772014443999,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:14:03"
+    },
+    {
+      "sample_id": "SMY999999",
+      "collected_at": 1772014416151,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:13:36"
+    },
+    {
+      "sample_id": "SMX999999",
+      "collected_at": 1772014409274,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:13:29"
+    },
+    {
+      "sample_id": "PF999999",
+      "collected_at": 1772014403398,
+      "collected_at_date": "2026-02-25",
+      "collected_at_datetime": "2026-02-25 18:13:23"
+    },
+    {
+      "sample_id": "DR002319",
+      "collected_at": 1768984923083,
+      "collected_at_date": "2026-01-21",
+      "collected_at_datetime": "2026-01-21 16:42:03"
+    },
+    {
+      "sample_id": "DR888888",
+      "collected_at": 1768881152742,
+      "collected_at_date": "2026-01-20",
+      "collected_at_datetime": "2026-01-20 11:52:32"
+    },
+    {
+      "sample_id": "CD888888",
+      "collected_at": 1768789408246,
+      "collected_at_date": "2026-01-19",
+      "collected_at_datetime": "2026-01-19 10:23:28"
+    },
+    {
+      "sample_id": "SMX888888",
+      "collected_at": 1766485807832,
+      "collected_at_date": "2025-12-23",
+      "collected_at_datetime": "2025-12-23 18:30:07"
+    },
+    {
+      "sample_id": "YT250727",
+      "collected_at": 1766214639032,
+      "collected_at_date": "2025-12-20",
+      "collected_at_datetime": "2025-12-20 15:10:39"
+    },
+    {
+      "sample_id": "PF888888",
+      "collected_at": 1766137408567,
+      "collected_at_date": "2025-12-19",
+      "collected_at_datetime": "2025-12-19 17:43:28"
+    },
+    {
+      "sample_id": "YT666666",
+      "collected_at": 1765971132921,
+      "collected_at_date": "2025-12-17",
+      "collected_at_datetime": "2025-12-17 19:32:12"
+    },
+    {
+      "sample_id": "SMY888888",
+      "collected_at": 1765857082446,
+      "collected_at_date": "2025-12-16",
+      "collected_at_datetime": "2025-12-16 11:51:22"
+    },
+    {
+      "sample_id": "GM999999",
+      "collected_at": 1765367770823,
+      "collected_at_date": "2025-12-10",
+      "collected_at_datetime": "2025-12-10 19:56:10"
+    },
+    {
+      "sample_id": "SW999999",
+      "collected_at": 1765365273710,
+      "collected_at_date": "2025-12-10",
+      "collected_at_datetime": "2025-12-10 19:14:33"
+    },
+    {
+      "sample_id": "ZL999999",
+      "collected_at": 1765364733207,
+      "collected_at_date": "2025-12-10",
+      "collected_at_datetime": "2025-12-10 19:05:33"
+    },
+    {
+      "sample_id": "TY888888",
+      "collected_at": 1764604800000,
+      "collected_at_date": "2025-12-02",
+      "collected_at_datetime": "2025-12-02 00:00:00"
+    },
+    {
+      "sample_id": "KS888888",
+      "collected_at": 1764604800000,
+      "collected_at_date": "2025-12-02",
+      "collected_at_datetime": "2025-12-02 00:00:00"
+    },
+    {
+      "sample_id": "SW888888",
+      "collected_at": 1764604800000,
+      "collected_at_date": "2025-12-02",
+      "collected_at_datetime": "2025-12-02 00:00:00"
+    },
+    {
+      "sample_id": "MY888888",
+      "collected_at": 1764604800000,
+      "collected_at_date": "2025-12-02",
+      "collected_at_datetime": "2025-12-02 00:00:00"
+    },
+    {
+      "sample_id": "ZL888888",
+      "collected_at": 1764604800000,
+      "collected_at_date": "2025-12-02",
+      "collected_at_datetime": "2025-12-02 00:00:00"
+    },
+    {
+      "sample_id": "ZM888888",
+      "collected_at": 1764259200000,
+      "collected_at_date": "2025-11-28",
+      "collected_at_datetime": "2025-11-28 00:00:00"
+    },
+    {
+      "sample_id": "GR888888",
+      "collected_at": 1763568000000,
+      "collected_at_date": "2025-11-20",
+      "collected_at_datetime": "2025-11-20 00:00:00"
+    },
+    {
+      "sample_id": "KS999999",
+      "collected_at": 1761436800000,
+      "collected_at_date": "2025-10-26",
+      "collected_at_datetime": "2025-10-26 08:00:00"
+    },
+    {
+      "sample_id": "MY999999",
+      "collected_at": 1761436800000,
+      "collected_at_date": "2025-10-26",
+      "collected_at_datetime": "2025-10-26 08:00:00"
+    },
+    {
+      "sample_id": "ZL888888",
+      "collected_at": 1760054400000,
+      "collected_at_date": "2025-10-10",
+      "collected_at_datetime": "2025-10-10 08:00:00"
+    },
+    {
+      "sample_id": "GM888888",
+      "collected_at": 1756224000000,
+      "collected_at_date": "2025-08-27",
+      "collected_at_datetime": "2025-08-27 00:00:00"
+    }
+  ],
+  "sex": 1,
+  "unlock_aging": true,
+  "unlock_allergy": true,
+  "unlock_cardiovascular": true,
+  "unlock_digestive": true,
+  "unlock_metabolism": true,
+  "unlock_pathogen": true,
+  "unlock_tumor": true,
+  "updated_at": 1773652513869,
+  "user_created_at": 1752489043492,
+  "weight": null,
+  "birthday_date": "2000-09-20",
+  "_UpdatedAt_date": "2026-03-16",
+  "_UserCreatedAt_date": "2025-07-14",
+  "_sampleCollectedAt_date": "2025-12-02"
+}

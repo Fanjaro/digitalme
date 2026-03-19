@@ -1,0 +1,79 @@
+{
+  "sample_id": "ZL888888",
+  "extraction_time": "2026-03-18 18:35:34",
+  "source_url": "http://10.1.20.128:30080/api/v2/samples/ZL888888",
+  "status": "success",
+  "data_fields": {
+    "ctDna": {
+      "mutationCount": 6,
+      "mutationFrequency": "0.004%",
+      "tumorRisk": "检出风险"
+    },
+    "mutations": [
+      {
+        "detectionFrequency": 4,
+        "geneFunction": "mTORC1复合体核心组分，调控细胞生长和营养感应通路",
+        "mutationImpact": "错义突变，可能改变mTORC1复合体的结构稳定性或底物识别",
+        "mutationSite": "RPTOR_V193I"
+      },
+      {
+        "detectionFrequency": 1,
+        "geneFunction": "富含亮氨酸重复激酶2，参与神经元突触功能及细胞内囊泡运输",
+        "mutationImpact": "同义突变，通常无功能影响，需排除剪接位点异常",
+        "mutationSite": "LRRK2_G1703="
+      },
+      {
+        "detectionFrequency": 1,
+        "geneFunction": "Kell血型糖蛋白，金属蛋白酶家族成员",
+        "mutationImpact": "同义突变，通常不会改变蛋白质功能",
+        "mutationSite": "KEL_F104="
+      },
+      {
+        "detectionFrequency": 1,
+        "geneFunction": "DNA甲基转移酶3A，介导DNA甲基化表观遗传调控",
+        "mutationImpact": "同义突变，预期无蛋白功能改变",
+        "mutationSite": "DNMT3A_Y528="
+      },
+      {
+        "detectionFrequency": 1,
+        "geneFunction": "表皮生长因子受体，调控细胞生长与分化",
+        "mutationImpact": "错义突变，位于激酶域，与靶向治疗耐药性相关",
+        "mutationSite": "EGFR_G665D"
+      },
+      {
+        "detectionFrequency": 1,
+        "geneFunction": "POU结构域转录因子，调控内耳听觉系统发育和骨化过程",
+        "mutationImpact": "同义突变，通常无功能性影响",
+        "mutationSite": "POU3F4_S6="
+      }
+    ],
+    "service": {
+      "hotline": "400 0292 565",
+      "reportDate": "2025.12.02T18:37:57+08:00",
+      "sampleDate": "2025.10.10T08:00:00+08:00"
+    },
+    "tumorTypes": [
+      {
+        "description": "主要发生在腹膜后和腹膜等器官。",
+        "name": "囊性、粘液性和浆液性肿瘤 (Cystic, Mucinous and Serous Neoplasms)",
+        "value": "1.0"
+      },
+      {
+        "description": "主要发生在结肠、肝脏和肝内胆管等器官。",
+        "name": "腺瘤和腺癌 (Adenomas and Adenocarcinomas)",
+        "value": "0.932"
+      },
+      {
+        "description": "主要发生在支气管和肺等器官。",
+        "name": "鳞状细胞肿瘤 (Squamous Cell Neoplasms)",
+        "value": "0.651"
+      }
+    ],
+    "userInfo": {
+      "age": "20岁",
+      "birthday": "2000.09.20T08:00:00+08:00",
+      "gender": "男",
+      "name": "Demo"
+    }
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "sample_id": "ZM888888",
+  "extraction_time": "2026-03-18 18:36:19",
+  "source_url": "http://10.1.20.128:30080/api/v2/samples/ZM888888",
+  "status": "success",
+  "appendixTable": [
+    {
+      "deviation": "",
+      "name": "Voltage-dependent L-type calcium channel subunit alpha-1C",
+      "refRange": "≤5.65",
+      "uniprot": "Q13936",
+      "value": 5.5
+    },
+    {
+      "deviation": "",
+      "name": "Voltage-dependent L-type calcium channel subunit alpha-1S",
+      "refRange": "≤5.63",
+      "uniprot": "Q13698",
+      "value": 5.12
+    },
+    {
+      "deviation": "",
+      "name": "A-type voltage-gated potassium channel KCND1",
+      "refRange": "≤6.33",
+      "uniprot": "Q9NSA2",
+      "value": 4.88
+    },
+    {
+      "deviation": "",
+      "name": "A-type voltage-gated potassium channel KCND2",
+      "refRange": "≤6.33",
+      "uniprot": "Q9NZV8",
+      "value": 4.88
+    },
+    {
+      "deviation": "",
+      "name": "A-type voltage-gated potassium channel KCND3",
+      "refRange": "≤6.33",
+      "uniprot": "Q9UK17",
+      "value": 4.88
+    },
+    {
+      "deviation": "",
+      "name": "Synaptotagmin-8",
+      "refRange": "≤5.10",
+      "uniprot": "Q8NBV8",
+      "value": 4.84
+    },
+    {
+      "deviation": "",
+      "name": "Regulator of G-protein signaling protein-like",
+      "refRange": "≤5.52",
+      "uniprot": "A5PLK6",
+      "value": 4.78
+    },
+    {
+      "deviation": "",
+      "name": "KH homology domain-containing protein 1",
+      "refRange": "≤6.19",
+      "uniprot": "Q4VXA5",
+      "value": 4.78
+    },
+    {
+      "deviation": "",
+      "name": "Rab effector MyRIP",
+      "refRange": "≤4.88",
+      "uniprot": "Q8NFW9",
+      "value": 4.77
+    },
+    {
+      "deviation": "",
+      "name": "Cystatin-11",
+      "refRange": "≤5.91",
+      "uniprot": "Q9H112",
+      "value": 4.7
+    },
+    {
+      "deviation": "",
+      "name": "Palmitoyl thioesterase CPT1C",
+      "refRange": "≤4.60",
+      "uniprot": "Q8TCG5",
+      "value": 4.56
+    },
+    {
+      "deviation": "",
+      "name": "Transmembrane and coiled-coil domain-containing protein 5A",
+      "refRange": "≤5.11",
+      "uniprot": "Q8N6Q1",
+      "value": 4.54
+    },
+    {
+      "deviation": "",
+      "name": "Zinc finger CCCH domain-containing protein 11B",
+      "refRange": "≤4.99",
+      "uniprot": "A0A1B0GTU1",
+      "value": 4.53
+    },
+    {
+      "deviation": "",
+      "name": "Kinesin-like protein KIF6",
+      "refRange": "≤4.89",
+      "uniprot": "Q6ZMV9",
+      "value": 4.51
+    },
+    {
+      "deviation": "",
+      "name": "E3 ubiquitin-protein ligase TRIM50",
+      "refRange": "≤5.41",
+      "uniprot": "Q86XT4",
+      "value": 4.51
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 2",
+      "refRange": "≤5.65",
+      "uniprot": "P16389",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 6",
+      "refRange": "≤5.65",
+      "uniprot": "P17658",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 3",
+      "refRange": "≤5.65",
+      "uniprot": "P22001",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 4",
+      "refRange": "≤5.65",
+      "uniprot": "P22459",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 5",
+      "refRange": "≤5.65",
+      "uniprot": "P22460",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 1",
+      "refRange": "≤5.65",
+      "uniprot": "Q09470",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily A member 7",
+      "refRange": "≤5.65",
+      "uniprot": "Q96RP8",
+      "value": 4.5
+    },
+    {
+      "deviation": "",
+      "name": "Doublesex- and mab-3-related transcription factor A1",
+      "refRange": "≤4.58",
+      "uniprot": "Q5VZB9",
+      "value": 4.44
+    },
+    {
+      "deviation": "",
+      "name": "Doublesex- and mab-3-related transcription factor 2",
+      "refRange": "≤4.58",
+      "uniprot": "Q9Y5R5",
+      "value": 4.44
+    },
+    {
+      "deviation": "",
+      "name": "Growth factor receptor-bound protein 7",
+      "refRange": "≤4.84",
+      "uniprot": "Q14451",
+      "value": 4.42
+    },
+    {
+      "deviation": "",
+      "name": "Ankyrin repeat and SOCS box protein 18",
+      "refRange": "≤4.95",
+      "uniprot": "Q6ZVZ8",
+      "value": 4.41
+    },
+    {
+      "deviation": "",
+      "name": "Probable D-lactate dehydrogenase, mitochondrial",
+      "refRange": "≤4.49",
+      "uniprot": "Q86WU2",
+      "value": 4.4
+    },
+    {
+      "deviation": "↑",
+      "name": "Interleukin-1 receptor type 2",
+      "refRange": "≤4.34",
+      "uniprot": "P27930",
+      "value": 4.39
+    },
+    {
+      "deviation": "",
+      "name": "G-protein coupled receptor 22",
+      "refRange": "≤5.48",
+      "uniprot": "Q99680",
+      "value": 4.38
+    },
+    {
+      "deviation": "",
+      "name": "Low-density lipoprotein receptor-related protein 3",
+      "refRange": "≤4.77",
+      "uniprot": "O75074",
+      "value": 4.37
+    },
+    {
+      "deviation": "",
+      "name": "Uncharacterized protein C10orf105",
+      "refRange": "≤5.08",
+      "uniprot": "Q8TEF2",
+      "value": 4.36
+    },
+    {
+      "deviation": "",
+      "name": "Melanophilin",
+      "refRange": "≤4.58",
+      "uniprot": "Q9BV36",
+      "value": 4.36
+    },
+    {
+      "deviation": "",
+      "name": "Tudor domain-containing protein 5",
+      "refRange": "≤4.64",
+      "uniprot": "Q8NAT2",
+      "value": 4.34
+    },
+    {
+      "deviation": "",
+      "name": "ETS domain-containing transcription factor ERF-like",
+      "refRange": "≤4.67",
+      "uniprot": "A0A1W2PQ73",
+      "value": 4.33
+    },
+    {
+      "deviation": "",
+      "name": "ETS translocation variant 3-like protein",
+      "refRange": "≤4.67",
+      "uniprot": "Q6ZN32",
+      "value": 4.33
+    },
+    {
+      "deviation": "",
+      "name": "IQ domain-containing protein F2",
+      "refRange": "≤4.63",
+      "uniprot": "Q8IXL9",
+      "value": 4.31
+    },
+    {
+      "deviation": "",
+      "name": "Band 4.1-like protein 4B",
+      "refRange": "≤4.58",
+      "uniprot": "Q9H329",
+      "value": 4.29
+    },
+    {
+      "deviation": "↑↑",
+      "name": "Cerberus",
+      "refRange": "≤4.05",
+      "uniprot": "O95813",
+      "value": 4.28
+    },
+    {
+      "deviation": "",
+      "name": "Cartilage acidic protein 1",
+      "refRange": "≤5.29",
+      "uniprot": "Q9NQ79",
+      "value": 4.28
+    },
+    {
+      "deviation": "",
+      "name": "Interleukin-17 receptor A",
+      "refRange": "≤4.98",
+      "uniprot": "Q96F46",
+      "value": 4.28
+    },
+    {
+      "deviation": "",
+      "name": "Reelin",
+      "refRange": "≤4.46",
+      "uniprot": "P78509",
+      "value": 4.27
+    },
+    {
+      "deviation": "",
+      "name": "Probable ATP-dependent DNA helicase HFM1",
+      "refRange": "≤5.14",
+      "uniprot": "A2PYH4",
+      "value": 4.25
+    },
+    {
+      "deviation": "",
+      "name": "Voltage-gated purine nucleotide uniporter SLC17A9",
+      "refRange": "≤4.68",
+      "uniprot": "Q9BYT1",
+      "value": 4.25
+    },
+    {
+      "deviation": "",
+      "name": "Proton-coupled amino acid transporter 2",
+      "refRange": "≤4.39",
+      "uniprot": "Q495M3",
+      "value": 4.21
+    },
+    {
+      "deviation": "",
+      "name": "Voltage-dependent L-type calcium channel subunit alpha-1F",
+      "refRange": "≤5.54",
+      "uniprot": "O60840",
+      "value": 4.19
+    },
+    {
+      "deviation": "",
+      "name": "UDP-glucuronosyltransferase 2A1",
+      "refRange": "≤4.49",
+      "uniprot": "P0DTE4",
+      "value": 4.18
+    },
+    {
+      "deviation": "",
+      "name": "Seven in absentia homolog 3",
+      "refRange": "≤4.59",
+      "uniprot": "Q8IW03",
+      "value": 4.17
+    },
+    {
+      "deviation": "",
+      "name": "Ig-like V-type domain-containing protein FAM187A",
+      "refRange": "≤4.69",
+      "uniprot": "A6NFU0",
+      "value": 4.17
+    },
+    {
+      "deviation": "",
+      "name": "Cholesterol side-chain cleavage enzyme, mitochondrial",
+      "refRange": "≤4.39",
+      "uniprot": "P05108",
+      "value": 4.16
+    },
+    {
+      "deviation": "",
+      "name": "Inactive phospholipase C-like protein 1",
+      "refRange": "≤4.47",
+      "uniprot": "Q15111",
+      "value": 4.16
+    },
+    {
+      "deviation": "",
+      "name": "FYVE and coiled-coil domain-containing protein 1",
+      "refRange": "≤4.66",
+      "uniprot": "Q9BQS8",
+      "value": 4.16
+    },
+    {
+      "deviation": "",
+      "name": "Leukocyte immunoglobulin-like receptor subfamily B member 5",
+      "refRange": "≤4.21",
+      "uniprot": "O75023",
+      "value": 4.14
+    },
+    {
+      "deviation": "",
+      "name": "BCL2/adenovirus E1B 19 kDa protein-interacting protein 2",
+      "refRange": "≤4.97",
+      "uniprot": "Q12982",
+      "value": 4.14
+    },
+    {
+      "deviation": "",
+      "name": "Integral membrane protein GPR137B",
+      "refRange": "≤4.63",
+      "uniprot": "O60478",
+      "value": 4.13
+    },
+    {
+      "deviation": "↑",
+      "name": "Sterile alpha motif domain-containing protein 9-like",
+      "refRange": "≤4.11",
+      "uniprot": "Q8IVG5",
+      "value": 4.13
+    },
+    {
+      "deviation": "",
+      "name": "IQ domain-containing protein N",
+      "refRange": "≤4.64",
+      "uniprot": "Q9H0B3",
+      "value": 4.11
+    },
+    {
+      "deviation": "↑↑",
+      "name": "A disintegrin and metalloproteinase with thrombospondin motifs 16",
+      "refRange": "≤3.90",
+      "uniprot": "Q8TE57",
+      "value": 4.11
+    },
+    {
+      "deviation": "",
+      "name": "ATP synthase-coupling factor 6, mitochondrial",
+      "refRange": "≤5.05",
+      "uniprot": "P18859",
+      "value": 4.1
+    },
+    {
+      "deviation": "",
+      "name": "Dedicator of cytokinesis protein 10",
+      "refRange": "≤4.68",
+      "uniprot": "Q96BY6",
+      "value": 4.1
+    },
+    {
+      "deviation": "",
+      "name": "Calcium homeostasis modulator protein 5",
+      "refRange": "≤4.96",
+      "uniprot": "Q8N5C1",
+      "value": 4.1
+    },
+    {
+      "deviation": "",
+      "name": "Laminin subunit alpha-2",
+      "refRange": "≤4.59",
+      "uniprot": "P24043",
+      "value": 4.1
+    },
+    {
+      "deviation": "",
+      "name": "Glutamate receptor ionotropic, NMDA 2A",
+      "refRange": "≤4.90",
+      "uniprot": "Q12879",
+      "value": 4.09
+    },
+    {
+      "deviation": "",
+      "name": "SCAN domain-containing protein 3",
+      "refRange": "≤5.04",
+      "uniprot": "Q6R2W3",
+      "value": 4.08
+    },
+    {
+      "deviation": "",
+      "name": "SET domain-containing protein 9",
+      "refRange": "≤4.31",
+      "uniprot": "Q8NE22",
+      "value": 4.08
+    },
+    {
+      "deviation": "",
+      "name": "Epoxide hydrolase 1",
+      "refRange": "≤4.33",
+      "uniprot": "P07099",
+      "value": 4.08
+    },
+    {
+      "deviation": "",
+      "name": "Ephrin type-A receptor 2",
+      "refRange": "≤4.90",
+      "uniprot": "P29317",
+      "value": 4.07
+    },
+    {
+      "deviation": "",
+      "name": "T-cell surface glycoprotein CD8 alpha chain",
+      "refRange": "≤4.55",
+      "uniprot": "P01732",
+      "value": 4.07
+    },
+    {
+      "deviation": "",
+      "name": "Cilia- and flagella-associated protein 65",
+      "refRange": "≤4.58",
+      "uniprot": "Q6ZU64",
+      "value": 4.06
+    },
+    {
+      "deviation": "",
+      "name": "Calpain-8",
+      "refRange": "≤4.72",
+      "uniprot": "A6NHC0",
+      "value": 4.05
+    },
+    {
+      "deviation": "",
+      "name": "Protein maestro",
+      "refRange": "≤4.08",
+      "uniprot": "Q9BYG7",
+      "value": 4.05
+    },
+    {
+      "deviation": "",
+      "name": "Solute carrier family 22 member 3",
+      "refRange": "≤4.44",
+      "uniprot": "O75751",
+      "value": 4.05
+    },
+    {
+      "deviation": "",
+      "name": "Abnormal spindle-like microcephaly-associated protein",
+      "refRange": "≤4.35",
+      "uniprot": "Q8IZT6",
+      "value": 4.05
+    },
+    {
+      "deviation": "",
+      "name": "NMDA receptor synaptonuclear signaling and neuronal migration factor",
+      "refRange": "≤4.28",
+      "uniprot": "Q6X4W1",
+      "value": 4.05
+    },
+    {
+      "deviation": "",
+      "name": "G-protein coupled receptor family C group 5 member C",
+      "refRange": "≤4.27",
+      "uniprot": "Q9NQ84",
+      "value": 4.04
+    },
+    {
+      "deviation": "",
+      "name": "Guanine nucleotide-binding protein subunit alpha-15",
+      "refRange": "≤4.33",
+      "uniprot": "P30679",
+      "value": 4.04
+    },
+    {
+      "deviation": "",
+      "name": "Bcl-2/adenovirus E1B 19 kDa-interacting protein 2-like protein",
+      "refRange": "≤4.67",
+      "uniprot": "Q7Z465",
+      "value": 4.04
+    },
+    {
+      "deviation": "",
+      "name": "Anoctamin-9",
+      "refRange": "≤4.49",
+      "uniprot": "A1A5B4",
+      "value": 4.04
+    },
+    {
+      "deviation": "",
+      "name": "Coiled-coil domain-containing protein 179",
+      "refRange": "≤4.81",
+      "uniprot": "H3BU77",
+      "value": 4.03
+    },
+    {
+      "deviation": "",
+      "name": "BAI1-associated protein 3",
+      "refRange": "≤4.17",
+      "uniprot": "O94812",
+      "value": 4.03
+    },
+    {
+      "deviation": "",
+      "name": "Probable inactive serine protease 37",
+      "refRange": "≤4.96",
+      "uniprot": "A4D1T9",
+      "value": 4.03
+    },
+    {
+      "deviation": "",
+      "name": "Transmembrane protein 81",
+      "refRange": "≤4.76",
+      "uniprot": "Q6P7N7",
+      "value": 4.03
+    },
+    {
+      "deviation": "",
+      "name": "DENN domain-containing protein 2D",
+      "refRange": "≤4.73",
+      "uniprot": "Q9H6A0",
+      "value": 4.02
+    },
+    {
+      "deviation": "",
+      "name": "Coiled-coil domain-containing protein 85C",
+      "refRange": "≤4.24",
+      "uniprot": "A6NKD9",
+      "value": 4.02
+    },
+    {
+      "deviation": "",
+      "name": "Fibroblast growth factor 22",
+      "refRange": "≤4.50",
+      "uniprot": "Q9HCT0",
+      "value": 4.01
+    },
+    {
+      "deviation": "",
+      "name": "Potassium voltage-gated channel subfamily KQT member 2",
+      "refRange": "≤4.03",
+      "uniprot": "O43526",
+      "value": 4
+    },
+    {
+      "deviation": "",
+      "name": "Inactive serine/threonine-protein kinase TEX14",
+      "refRange": "≤4.45",
+      "uniprot": "Q8IWB6",
+      "value": 4
+    },
+    {
+      "deviation": "↑",
+      "name": "A-type potassium channel modulatory protein DPP6",
+      "refRange": "≤3.90",
+      "uniprot": "P42658",
+      "value": 4
+    },
+    {
+      "deviation": "",
+      "name": "Cytochrome P450 26B1",
+      "refRange": "≤4.39",
+      "uniprot": "Q9NR63",
+      "value": 4
+    },
+    {
+      "deviation": "",
+      "name": "ATPase family AAA domain-containing protein 2",
+      "refRange": "≤4.67",
+      "uniprot": "Q6PL18",
+      "value": 4
+    },
+    {
+      "deviation": "",
+      "name": "Myeloperoxidase",
+      "refRange": "≤4.01",
+      "uniprot": "P05164",
+      "value": 3.99
+    },
+    {
+      "deviation": "",
+      "name": "Eosinophil peroxidase",
+      "refRange": "≤4.01",
+      "uniprot": "P11678",
+      "value": 3.99
+    },
+    {
+      "deviation": "",
+      "name": "Pyrin and HIN domain-containing protein 1",
+      "refRange": "≤4.96",
+      "uniprot": "Q6K0P9",
+      "value": 3.99
+    },
+    {
+      "deviation": "",
+      "name": "Ras-like protein family member 10A",
+      "refRange": "≤4.42",
+      "uniprot": "Q92737",
+      "value": 3.99
+    },
+    {
+      "deviation": "",
+      "name": "Neuronal acetylcholine receptor subunit alpha-2",
+      "refRange": "≤4.41",
+      "uniprot": "Q15822",
+      "value": 3.99
+    },
+    {
+      "deviation": "",
+      "name": "RUN and FYVE domain-containing protein 4",
+      "refRange": "≤4.17",
+      "uniprot": "Q6ZNE9",
+      "value": 3.98
+    },
+    {
+      "deviation": "↑↑",
+      "name": "Apolipoprotein(a)",
+      "refRange": "≤3.74",
+      "uniprot": "P08519",
+      "value": 3.98
+    },
+    {
+      "deviation": "",
+      "name": "Vesicular glutamate transporter 3",
+      "refRange": "≤4.23",
+      "uniprot": "Q8NDX2",
+      "value": 3.98
+    },
+    {
+      "deviation": "",
+      "name": "Sperm-associated antigen 4 protein",
+      "refRange": "≤4.58",
+      "uniprot": "Q9NPE6",
+      "value": 3.98
+    },
+    {
+      "deviation": "",
+      "name": "Olfactomedin-like protein 1",
+      "refRange": "≤4.51",
+      "uniprot": "Q6UWY5",
+      "value": 3.97
+    },
+    {
+      "deviation": "",
+      "name": "Activity-dependent neuroprotector homeobox protein 2",
+      "refRange": "≤4.19",
+      "uniprot": "Q6IQ32",
+      "value": 3.97
+    }
+  ]
+}

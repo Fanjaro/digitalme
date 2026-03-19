@@ -1,0 +1,2966 @@
+{
+  "sample_id": "DR888888",
+  "extraction_time": "2026-03-18 18:38:00",
+  "source_url": "http://10.1.20.128:30080/api/v2/samples/DR888888",
+  "status": "success",
+  "data_fields": {
+    "unscramble": {
+      "cancer": [
+        {
+          "ranking": [
+            {
+              "name": "small_intestine_neuroendocrine_tumor",
+              "value": 0
+            },
+            {
+              "name": "diffuse_large_b-cell_lymphoma",
+              "value": 0
+            },
+            {
+              "name": "pituitary_neuroendocrine_tumor",
+              "value": 0
+            },
+            {
+              "name": "myeloma",
+              "value": 0
+            },
+            {
+              "name": "acute_myeloid_leukemia",
+              "value": 0
+            },
+            {
+              "name": "glioma",
+              "value": 0
+            },
+            {
+              "name": "colorectal_cancer",
+              "value": 0
+            },
+            {
+              "name": "lung_cancer",
+              "value": 0
+            },
+            {
+              "name": "meningioma",
+              "value": 0
+            },
+            {
+              "name": "melanoma",
+              "value": 0
+            },
+            {
+              "name": "hepatocellular_cancer",
+              "value": 0
+            },
+            {
+              "name": "pancreatic_cancer",
+              "value": 0
+            },
+            {
+              "name": "chronic_lymphocytic_leukemia",
+              "value": 0
+            },
+            {
+              "name": "prostate_cancer",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "avgScore": 33.9794,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "small_intestine_neuroendocrine_tumor",
+          "rangeMap": {
+            "max": 40,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Cryptic protein",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Peroxiredoxin-6",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.6"
+            },
+            {
+              "name": "C-X-C motif chemokine 13",
+              "ref": "2.0",
+              "result": "异常",
+              "value": "2.1"
+            },
+            {
+              "name": "Retbindin",
+              "ref": "4.3",
+              "result": "正常",
+              "value": "3.8"
+            },
+            {
+              "name": "Myeloid cell nuclear differentiation antigen",
+              "ref": "3.6",
+              "result": "正常",
+              "value": "3.6"
+            },
+            {
+              "name": "Leukotriene A-4 hydrolase",
+              "ref": "4.0",
+              "result": "正常",
+              "value": "3.3"
+            },
+            {
+              "name": "Hepatocyte growth factor",
+              "ref": "3.2",
+              "result": "正常",
+              "value": "3.2"
+            },
+            {
+              "name": "Growth/differentiation factor 15",
+              "ref": "2.7",
+              "result": "正常",
+              "value": "2.7"
+            }
+          ],
+          "riskLength": 4,
+          "riskScore": 7.7
+        },
+        {
+          "avgScore": 32.2185,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "diffuse_large_b-cell_lymphoma",
+          "rangeMap": {
+            "max": 40,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Interleukin-4 receptor subunit alpha",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Corticoliberin",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.3"
+            }
+          ],
+          "riskLength": 43,
+          "riskScore": 8.6
+        },
+        {
+          "avgScore": 30.9691,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "pituitary_neuroendocrine_tumor",
+          "rangeMap": {
+            "max": 40,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Cryptic protein",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Peroxiredoxin-6",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.6"
+            },
+            {
+              "name": "C-X-C motif chemokine 13",
+              "ref": "2.0",
+              "result": "异常",
+              "value": "2.1"
+            },
+            {
+              "name": "Secretoglobin family 3A member 2",
+              "ref": "1.3",
+              "result": "异常",
+              "value": "1.6"
+            },
+            {
+              "name": "Leukotriene A-4 hydrolase",
+              "ref": "4.0",
+              "result": "正常",
+              "value": "3.3"
+            },
+            {
+              "name": "Enteropeptidase",
+              "ref": "3.9",
+              "result": "正常",
+              "value": "2.5"
+            },
+            {
+              "name": "Creatine kinase U-type, mitochondrial",
+              "ref": "3.6",
+              "result": "正常",
+              "value": "2.3"
+            },
+            {
+              "name": "von Willebrand factor",
+              "ref": "2.8",
+              "result": "正常",
+              "value": "2.2"
+            }
+          ],
+          "riskLength": 5,
+          "riskScore": 9.6
+        },
+        {
+          "avgScore": 26.1979,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "myeloma",
+          "rangeMap": {
+            "max": 30,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Intercellular adhesion molecule 2",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Tripeptidyl-peptidase 1",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Protein Wnt-9a",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.3"
+            }
+          ],
+          "riskLength": 35,
+          "riskScore": 8.4
+        },
+        {
+          "avgScore": 20.3621,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "acute_myeloid_leukemia",
+          "rangeMap": {
+            "max": 30,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Toll-like receptor 3",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            }
+          ],
+          "riskLength": 58,
+          "riskScore": 8.5
+        },
+        {
+          "avgScore": 19.6658,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "glioma",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Corticoliberin",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Thrombospondin-4",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.2"
+            },
+            {
+              "name": "Cryptic protein",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            }
+          ],
+          "riskLength": 31,
+          "riskScore": 8.4
+        },
+        {
+          "avgScore": 19.4066,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "colorectal_cancer",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Corticoliberin",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Tyrosine-protein kinase Fes/Fps",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 14",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Transferrin receptor protein 1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            }
+          ],
+          "riskLength": 18,
+          "riskScore": 8.5
+        },
+        {
+          "avgScore": 19.396,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "lung_cancer",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Corticoliberin",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 14",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "T-cell leukemia/lymphoma protein 1A",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Alkaline phosphatase, placental type",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            }
+          ],
+          "riskLength": 27,
+          "riskScore": 8.6
+        },
+        {
+          "avgScore": 19.0101,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "meningioma",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 14",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Carbonic anhydrase 2",
+              "ref": "2.1",
+              "result": "异常",
+              "value": "2.7"
+            },
+            {
+              "name": "Peroxiredoxin-6",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.6"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 11",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.5"
+            },
+            {
+              "name": "V-set and immunoglobulin domain-containing protein 4",
+              "ref": "2.0",
+              "result": "异常",
+              "value": "2.3"
+            }
+          ],
+          "riskLength": 13,
+          "riskScore": 8.8
+        },
+        {
+          "avgScore": 17.9371,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "melanoma",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "T-cell leukemia/lymphoma protein 1A",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Transferrin receptor protein 1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Neutrophil cytosol factor 2",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "2.9"
+            }
+          ],
+          "riskLength": 27,
+          "riskScore": 8.4
+        },
+        {
+          "avgScore": 16.4207,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "hepatocellular_cancer",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Nuclear factor of activated T-cells, cytoplasmic 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 91,
+          "riskScore": 8.7
+        },
+        {
+          "avgScore": 15.4668,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "pancreatic_cancer",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Protogenin",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 77,
+          "riskScore": 8.7
+        },
+        {
+          "avgScore": 11.9654,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "chronic_lymphocytic_leukemia",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Interleukin-4 receptor subunit alpha",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Corticoliberin",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Polypeptide N-acetylgalactosaminyltransferase 3",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.2"
+            },
+            {
+              "name": "Leukocyte immunoglobulin-like receptor subfamily B member 1",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "T-cell leukemia/lymphoma protein 1A",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.0"
+            }
+          ],
+          "riskLength": 19,
+          "riskScore": 8.5
+        },
+        {
+          "avgScore": 12.0204,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "prostate_cancer",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Tyrosine-protein kinase Fes/Fps",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 14",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Carbonic anhydrase 2",
+              "ref": "2.1",
+              "result": "异常",
+              "value": "2.7"
+            },
+            {
+              "name": "Peroxiredoxin-6",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.6"
+            },
+            {
+              "name": "Ubiquitin-associated domain-containing protein 1",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.3"
+            }
+          ],
+          "riskLength": 10,
+          "riskScore": 8.8
+        }
+      ],
+      "cardiovascular": [
+        {
+          "ranking": [
+            {
+              "name": "previous_venous_thromboembolism",
+              "value": 0
+            },
+            {
+              "name": "coronary_artery_calcification",
+              "value": 0
+            },
+            {
+              "name": "acute_venous_thromboembolism",
+              "value": 0
+            },
+            {
+              "name": "acute_coronary_syndrome",
+              "value": 0
+            },
+            {
+              "name": "abdominal_aortic_aneurysm",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "avgScore": 26.9897,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "previous_venous_thromboembolism",
+          "rangeMap": {
+            "max": 30,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Thrombospondin-4",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.2"
+            },
+            {
+              "name": "Serpin A12",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "T-cell leukemia/lymphoma protein 1A",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Transferrin receptor protein 1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Neutrophil cytosol factor 2",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            }
+          ],
+          "riskLength": 18,
+          "riskScore": 1
+        },
+        {
+          "avgScore": 16.9897,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "coronary_artery_calcification",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Leptin",
+              "ref": "1.8",
+              "result": "正常",
+              "value": "1.8"
+            },
+            {
+              "name": "Mevalonate kinase",
+              "ref": "2.2",
+              "result": "正常",
+              "value": "1.7"
+            },
+            {
+              "name": "Glutathione S-transferase A1",
+              "ref": "2.5",
+              "result": "正常",
+              "value": "1.7"
+            },
+            {
+              "name": "Insulin-like growth factor-binding protein 1",
+              "ref": "2.1",
+              "result": "正常",
+              "value": "1.6"
+            },
+            {
+              "name": "Glutathione S-transferase A3",
+              "ref": "2.3",
+              "result": "正常",
+              "value": "1.3"
+            },
+            {
+              "name": "All-trans-retinol dehydrogenase [NAD(+)] ADH4",
+              "ref": "3.3",
+              "result": "正常",
+              "value": "1.3"
+            },
+            {
+              "name": "Keratin, type I cytoskeletal 18",
+              "ref": "2.5",
+              "result": "正常",
+              "value": "1.3"
+            }
+          ],
+          "riskLength": 2,
+          "riskScore": 2
+        },
+        {
+          "avgScore": 11.3549,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "acute_venous_thromboembolism",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Transferrin receptor protein 1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Prosaposin receptor GPR37",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "2.8"
+            },
+            {
+              "name": "Peroxiredoxin-6",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.6"
+            },
+            {
+              "name": "Tumor necrosis factor ligand superfamily member 11",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.5"
+            }
+          ],
+          "riskLength": 18,
+          "riskScore": 1.1
+        },
+        {
+          "avgScore": 11.1919,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "acute_coronary_syndrome",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "Cathepsin F",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            }
+          ],
+          "riskLength": 37,
+          "riskScore": 1
+        },
+        {
+          "avgScore": 10.3621,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "abdominal_aortic_aneurysm",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Prosaposin receptor GPR37",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "2.8"
+            },
+            {
+              "name": "DNA repair nuclease/redox regulator APEX1",
+              "ref": "2.3",
+              "result": "异常",
+              "value": "2.7"
+            },
+            {
+              "name": "Complement C1q tumor necrosis factor-related protein 1",
+              "ref": "2.1",
+              "result": "异常",
+              "value": "2.4"
+            },
+            {
+              "name": "Cell adhesion molecule CEACAM5",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.4"
+            },
+            {
+              "name": "C-X-C motif chemokine 13",
+              "ref": "2.0",
+              "result": "异常",
+              "value": "2.1"
+            }
+          ],
+          "riskLength": 13,
+          "riskScore": 1.1
+        }
+      ],
+      "digestive_system": [
+        {
+          "ranking": [
+            {
+              "name": "stomach",
+              "value": 0
+            },
+            {
+              "name": "gallbladder",
+              "value": 0
+            },
+            {
+              "name": "pancreas",
+              "value": 0
+            },
+            {
+              "name": "liver",
+              "value": 0
+            },
+            {
+              "name": "intestine",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "avgScore": 16.1719,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "stomach",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "von Willebrand factor A domain-containing protein 2",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Aflatoxin B1 aldehyde reductase member 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Potassium voltage-gated channel subfamily E member 3",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Transient receptor potential cation channel subfamily A member 1",
+              "ref": "2.6",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Potassium voltage-gated channel subfamily E member 2",
+              "ref": "3.7",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Transmembrane protein 171",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.7"
+            },
+            {
+              "name": "Beta-1,4-N-acetylgalactosaminyltransferase 3",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Immunoglobulin heavy variable 1-69D",
+              "ref": "2.6",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Sodium/hydrogen exchanger 2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.4"
+            }
+          ],
+          "riskLength": 68,
+          "riskScore": 4.2
+        },
+        {
+          "avgScore": 14.2946,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "gallbladder",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Cystic fibrosis transmembrane conductance regulator",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Beta-1,3-galactosyltransferase 2",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.7"
+            },
+            {
+              "name": "Collagen triple helix repeat-containing protein 1",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Small integral membrane protein 31",
+              "ref": "2.1",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "Immunoglobulin heavy variable 1-69",
+              "ref": "2.6",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Carbohydrate sulfotransferase 4",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Gremlin-2",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Probable small intestine urate exporter",
+              "ref": "2.6",
+              "result": "异常",
+              "value": "2.7"
+            },
+            {
+              "name": "Uncharacterized protein C11orf91",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "2.6"
+            }
+          ],
+          "riskLength": 14,
+          "riskScore": 4.1
+        },
+        {
+          "avgScore": 8.4894,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "pancreas",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Sperm-associated antigen 4 protein",
+              "ref": "4.4",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "P2X purinoceptor 1",
+              "ref": "4.3",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Synaptotagmin-6",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Monocarboxylate transporter 10",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Aflatoxin B1 aldehyde reductase member 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Cystic fibrosis transmembrane conductance regulator",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Transient receptor potential cation channel subfamily M member 5",
+              "ref": "3.7",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "F-box only protein 2",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Catechol O-methyltransferase domain-containing protein 1",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.7"
+            }
+          ],
+          "riskLength": 58,
+          "riskScore": 4.6
+        },
+        {
+          "avgScore": 6.7931,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "liver",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Complement C5",
+              "ref": "4.3",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Thiosulfate sulfurtransferase",
+              "ref": "3.8",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Peroxisomal membrane protein 2",
+              "ref": "3.7",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Ceramide synthase 2",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "4.2"
+            },
+            {
+              "name": "Homeobox protein cut-like 2",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.2"
+            },
+            {
+              "name": "Bile salt export pump",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Carotenoid-cleaving dioxygenase, mitochondrial",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Peptide deformylase, mitochondrial",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Aflatoxin B1 aldehyde reductase member 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "4.0"
+            }
+          ],
+          "riskLength": 171,
+          "riskScore": 4.1
+        },
+        {
+          "avgScore": 5.4511,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "intestine",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Calpain-5",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "5.0"
+            },
+            {
+              "name": "Anoctamin-9",
+              "ref": "4.4",
+              "result": "异常",
+              "value": "4.8"
+            },
+            {
+              "name": "XK-related protein 4",
+              "ref": "3.7",
+              "result": "异常",
+              "value": "4.6"
+            },
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Myosin-14",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Myosin-11",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Insulin-like peptide INSL5",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Prostaglandin D2 receptor",
+              "ref": "3.9",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Aflatoxin B1 aldehyde reductase member 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "4.0"
+            }
+          ],
+          "riskLength": 167,
+          "riskScore": 3.9
+        }
+      ],
+      "infection": [
+        {
+          "ranking": [
+            {
+              "name": "mycoplasma_pneumonia",
+              "value": 0
+            },
+            {
+              "name": "streptococcal_soft_tissue_infection",
+              "value": 0
+            },
+            {
+              "name": "hiv",
+              "value": 0
+            },
+            {
+              "name": "pneumococcal_pneumonia",
+              "value": 0
+            },
+            {
+              "name": "staphylococcus_aureus_bacteremia",
+              "value": 0
+            },
+            {
+              "name": "e.coli_pyelonephritis",
+              "value": 0
+            },
+            {
+              "name": "malaria",
+              "value": 0
+            },
+            {
+              "name": "bacterial_gastroenteritis",
+              "value": 0
+            },
+            {
+              "name": "dengue_fever",
+              "value": 0
+            },
+            {
+              "name": "influenza",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "avgScore": 22.2185,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "mycoplasma_pneumonia",
+          "rangeMap": {
+            "max": 30,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Protogenin",
+              "ref": "4.0",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 63,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 20.9691,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "streptococcal_soft_tissue_infection",
+          "rangeMap": {
+            "max": 30,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Nuclear factor of activated T-cells, cytoplasmic 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 99,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 19.9157,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "hiv",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "Cathepsin F",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Aromatic-L-amino-acid decarboxylase",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.3"
+            }
+          ],
+          "riskLength": 43,
+          "riskScore": 2
+        },
+        {
+          "avgScore": 19.2082,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "pneumococcal_pneumonia",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 87,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 16.9897,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "staphylococcus_aureus_bacteremia",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 94,
+          "riskScore": 1.7
+        },
+        {
+          "avgScore": 13.9405,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "e.coli_pyelonephritis",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 95,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 10.5875,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "malaria",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            }
+          ],
+          "riskLength": 79,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 9.0518,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "bacterial_gastroenteritis",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Interleukin-4 receptor subunit alpha",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Tripeptidyl-peptidase 1",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.3"
+            }
+          ],
+          "riskLength": 46,
+          "riskScore": 1.7
+        },
+        {
+          "avgScore": 7.3077,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "dengue_fever",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Tripeptidyl-peptidase 1",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Polypeptide N-acetylgalactosaminyltransferase 3",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.2"
+            },
+            {
+              "name": "Tyrosine-protein kinase Fes/Fps",
+              "ref": "2.7",
+              "result": "异常",
+              "value": "3.1"
+            },
+            {
+              "name": "Caspase-8",
+              "ref": "2.9",
+              "result": "异常",
+              "value": "3.0"
+            }
+          ],
+          "riskLength": 33,
+          "riskScore": 1.8
+        },
+        {
+          "avgScore": 4.4917,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "influenza",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 64,
+          "riskScore": 1.8
+        }
+      ],
+      "metabolic": [
+        {
+          "ranking": [
+            {
+              "name": "type_2_diabetes",
+              "value": 0.2
+            },
+            {
+              "name": "viral_hepatitis_related_cirrhosis",
+              "value": 0
+            },
+            {
+              "name": "alcohol-related_liver_disease",
+              "value": 0
+            },
+            {
+              "name": "metabolic_syndrome",
+              "value": 0
+            },
+            {
+              "name": "masld",
+              "value": 0
+            },
+            {
+              "name": "chronic_liver_disease",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "avgScore": 6.9541,
+          "description": "",
+          "isRiskDisease": true,
+          "mechanism": "",
+          "name": "type_2_diabetes",
+          "rangeMap": {
+            "max": 10,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Tripeptidyl-peptidase 1",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.3"
+            },
+            {
+              "name": "Inhibin beta C chain",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.5"
+            },
+            {
+              "name": "Liver carboxylesterase 1",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.3"
+            },
+            {
+              "name": "Protein C19orf12",
+              "ref": "1.6",
+              "result": "异常",
+              "value": "2.0"
+            },
+            {
+              "name": "Interleukin-6",
+              "ref": "1.3",
+              "result": "异常",
+              "value": "1.9"
+            },
+            {
+              "name": "Plasminogen activator inhibitor 1",
+              "ref": "3.8",
+              "result": "正常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 8,
+          "riskScore": 7.2
+        },
+        {
+          "avgScore": 19.2082,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "viral_hepatitis_related_cirrhosis",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Nuclear factor of activated T-cells, cytoplasmic 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Tumor necrosis factor receptor superfamily member 10A",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 83,
+          "riskScore": 7.5
+        },
+        {
+          "avgScore": 16.8194,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "alcohol-related_liver_disease",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Interleukin-4 receptor subunit alpha",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.4"
+            }
+          ],
+          "riskLength": 48,
+          "riskScore": 7.4
+        },
+        {
+          "avgScore": 14.2592,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "metabolic_syndrome",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Scavenger receptor cysteine-rich domain-containing group B protein",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Defensin beta 4A",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "3.0"
+            },
+            {
+              "name": "CCN family member 1",
+              "ref": "2.5",
+              "result": "异常",
+              "value": "2.9"
+            },
+            {
+              "name": "Liver carboxylesterase 1",
+              "ref": "2.2",
+              "result": "异常",
+              "value": "2.3"
+            },
+            {
+              "name": "Interleukin-6",
+              "ref": "1.3",
+              "result": "异常",
+              "value": "1.9"
+            },
+            {
+              "name": "Plasminogen activator inhibitor 1",
+              "ref": "3.8",
+              "result": "正常",
+              "value": "3.6"
+            },
+            {
+              "name": "Low-density lipoprotein receptor",
+              "ref": "2.9",
+              "result": "正常",
+              "value": "2.5"
+            },
+            {
+              "name": "Retinol-binding protein 5",
+              "ref": "3.3",
+              "result": "正常",
+              "value": "2.5"
+            },
+            {
+              "name": "Cadherin-related family member 2",
+              "ref": "3.1",
+              "result": "正常",
+              "value": "2.3"
+            }
+          ],
+          "riskLength": 5,
+          "riskScore": 7.9
+        },
+        {
+          "avgScore": 11.7629,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "masld",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Carbonic anhydrase 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.3"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Nuclear factor of activated T-cells, cytoplasmic 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Cadherin-2",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Ectonucleotide pyrophosphatase/phosphodiesterase family member 5",
+              "ref": "2.4",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Scavenger receptor cysteine-rich type 1 protein M130",
+              "ref": "3.2",
+              "result": "异常",
+              "value": "3.5"
+            },
+            {
+              "name": "CD27 antigen",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            },
+            {
+              "name": "Adhesion G-protein coupled receptor G1",
+              "ref": "2.8",
+              "result": "异常",
+              "value": "3.4"
+            }
+          ],
+          "riskLength": 51,
+          "riskScore": 7.5
+        },
+        {
+          "avgScore": 10.9691,
+          "description": "",
+          "isRiskDisease": false,
+          "mechanism": "",
+          "name": "chronic_liver_disease",
+          "rangeMap": {
+            "max": 20,
+            "min": 0
+          },
+          "relatedProteins": [
+            {
+              "name": "Basal cell adhesion molecule",
+              "ref": "4.1",
+              "result": "异常",
+              "value": "4.5"
+            },
+            {
+              "name": "T-cell surface glycoprotein CD1c",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.4"
+            },
+            {
+              "name": "NT-3 growth factor receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "4.1"
+            },
+            {
+              "name": "Interleukin-18 receptor 1",
+              "ref": "3.4",
+              "result": "异常",
+              "value": "4.0"
+            },
+            {
+              "name": "Nuclear factor of activated T-cells, cytoplasmic 3",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.9"
+            },
+            {
+              "name": "E3 ubiquitin-protein ligase AMFR",
+              "ref": "3.1",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Osteoclast-associated immunoglobulin-like receptor",
+              "ref": "3.6",
+              "result": "异常",
+              "value": "3.8"
+            },
+            {
+              "name": "Poliovirus receptor",
+              "ref": "3.3",
+              "result": "异常",
+              "value": "3.6"
+            },
+            {
+              "name": "Programmed cell death 1 ligand 1",
+              "ref": "3.5",
+              "result": "异常",
+              "value": "3.6"
+            }
+          ],
+          "riskLength": 74,
+          "riskScore": 7.5
+        }
+      ]
+    },
+    "userInfo": {
+      "age": "25岁",
+      "birthday": "2000.09.20T00:00:00+08:00",
+      "gender": "男",
+      "name": "Demo"
+    }
+  }
+}

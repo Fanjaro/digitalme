@@ -1,0 +1,184 @@
+{
+  "sample_id": "PF888888",
+  "extraction_time": "2026-03-18 18:36:57",
+  "source_url": "http://10.1.20.128:30080/api/v2/samples/PF888888",
+  "status": "success",
+  "data_fields": {
+    "appendixList": {
+      "beneficialData": [
+        {
+          "abundance": "0.31%",
+          "cnName": "表皮葡萄球菌",
+          "name": "Staphylococcus epidermidis",
+          "relevance": "额头优势共生菌，抑制致病菌黏附，强化皮肤免疫屏障",
+          "signalValue": 0.31
+        },
+        {
+          "abundance": "0.2%",
+          "cnName": "痤疮丙酸杆菌（有益菌株）",
+          "name": "Cutibacterium acnes",
+          "relevance": "调节皮脂代谢，抑制有害菌增殖",
+          "signalValue": 0.2
+        },
+        {
+          "abundance": "0%",
+          "cnName": "克氏棒状杆菌",
+          "name": "Corynebacterium kroppenstedtii",
+          "relevance": "提升微生态多样性，调控局部炎症",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "纹带棒状杆菌",
+          "name": "Corynebacterium striatum",
+          "relevance": "促进角质代谢，增强屏障功能",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "解脲棒状杆菌",
+          "name": "Corynebacterium urealyticum",
+          "relevance": "调节皮肤pH值，抑制耐酸致病菌",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "溶血性葡萄球菌",
+          "name": "Staphylococcus haemolyticus",
+          "relevance": "竞争性抑制金黄色葡萄球菌定植",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "人葡萄球菌",
+          "name": "Staphylococcus hominis",
+          "relevance": "调节皮肤微生态平衡，分泌抗菌代谢物",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "路邓葡萄球菌",
+          "name": "Staphylococcus lugdunensis",
+          "relevance": "分泌抗菌肽，抑制致病真菌/细菌",
+          "signalValue": 0
+        }
+      ],
+      "conditionalPathogenData": [
+        {
+          "abundance": "0.9%",
+          "cnName": "肺炎克雷伯菌",
+          "name": "Klebsiella pneumoniae",
+          "relevance": "潮湿环境定植，诱发局部炎症",
+          "signalValue": 0.9
+        },
+        {
+          "abundance": "0.7%",
+          "cnName": "大肠埃希菌",
+          "name": "Escherichia coli",
+          "relevance": "外源污染后定植，刺激皮肤炎症反应",
+          "signalValue": 0.7
+        },
+        {
+          "abundance": "0.62%",
+          "cnName": "铜绿假单胞菌",
+          "name": "Pseudomonas aeruginosa",
+          "relevance": "免疫下降时诱发继发性皮肤感染",
+          "signalValue": 0.62
+        },
+        {
+          "abundance": "0.41%",
+          "cnName": "单核细胞增生李斯特菌",
+          "name": "Listeria monocytogenes",
+          "relevance": "免疫低下人群易感染，引发红斑脓疱",
+          "signalValue": 0.41
+        },
+        {
+          "abundance": "0.39%",
+          "cnName": "粪肠球菌",
+          "name": "Enterococcus faecalis",
+          "relevance": "创面常见感染菌，伴随化脓反应",
+          "signalValue": 0.39
+        },
+        {
+          "abundance": "0.23%",
+          "cnName": "弗氏柠檬酸杆菌",
+          "name": "Citrobacter freundii",
+          "relevance": "潮湿环境增殖，关联皮肤异味",
+          "signalValue": 0.23
+        },
+        {
+          "abundance": "0.17%",
+          "cnName": "金黄色葡萄球菌",
+          "name": "Staphylococcus aureus",
+          "relevance": "皮肤破损时引发毛囊炎、脓疱疮",
+          "signalValue": 0.17
+        },
+        {
+          "abundance": "0%",
+          "cnName": "产气荚膜梭菌",
+          "name": "Clostridium perfringens",
+          "relevance": "创伤后引发坏死性皮肤感染",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "奇异变形杆菌",
+          "name": "Proteus mirabilis",
+          "relevance": "皮肤溃疡时感染，产生异味代谢物",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "普通变形杆菌",
+          "name": "Proteus vulgaris",
+          "relevance": "接触污染后定植，分泌毒性代谢物",
+          "signalValue": 0
+        }
+      ],
+      "harmfulData": [
+        {
+          "abundance": "0.66%",
+          "cnName": "鲍曼不动杆菌",
+          "name": "Acinetobacter baumannii",
+          "relevance": "多重耐药菌，创面感染风险高",
+          "signalValue": 0.66
+        },
+        {
+          "abundance": "0.14%",
+          "cnName": "化脓链球菌",
+          "name": "Streptococcus pyogenes",
+          "relevance": "引发化脓、蜂窝织炎，具有传染性",
+          "signalValue": 0.14
+        },
+        {
+          "abundance": "0%",
+          "cnName": "白色念珠菌",
+          "name": "Candida albicans",
+          "relevance": "诱发念珠菌性皮炎，伴红斑瘙痒",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "近平滑念珠菌",
+          "name": "Candida parapsilosis",
+          "relevance": "皮肤破损时定植，诱发局部红肿",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "热带念珠菌",
+          "name": "Candida tropicalis",
+          "relevance": "耐热性强，夏季易引发额头真菌性炎症",
+          "signalValue": 0
+        },
+        {
+          "abundance": "0%",
+          "cnName": "无乳链球菌",
+          "name": "Streptococcus agalactiae",
+          "relevance": "引发蜂窝织炎、脓疱疮，侵犯暴露部位",
+          "signalValue": 0
+        }
+      ]
+    }
+  }
+}
