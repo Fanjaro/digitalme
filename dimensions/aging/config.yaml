@@ -1,0 +1,32 @@
+dimension:
+  key: "aging"
+  display_name: "衰老/亚健康"
+  display_name_en: ""
+  description: "检测评估个人总体，各个器官等衰老程度"
+
+sample_id:
+  prefixes: ["KS", "KS1027", "TY"]
+  pattern: "^(KS1027|KS|TY)\\d+"
+
+api:
+  version: "v1"
+  extractor_class: "DetailedDataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data.aging"
+      description: "衰老机制数据"
+  structure_type: "v1_aging"
+
+medical_expertise:
+  domain: "衰老/亚健康"
+  keywords: []
+  testing_principle: "核酸分子杂交与信号放大技术"
+  testing_method: "高通量芯片肽核酸探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

@@ -1,0 +1,40 @@
+dimension:
+  key: "dr"
+  display_name: "5大疾病风险"
+  display_name_en: ""
+  description: "肿瘤，内分泌代谢系统，心血管系统，消化系统，病原体感染评估"
+
+sample_id:
+  prefixes: ["DR"]
+  pattern: "^(DR)\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data_fields.unscramble.cancer"
+      description: "肿瘤风险"
+    - field: "data_fields.unscramble.cardiovascular"
+      description: "心血管风险"
+    - field: "data_fields.unscramble.digestive_system"
+      description: "消化系统"
+    - field: "data_fields.unscramble.infection"
+      description: "感染风险"
+    - field: "data_fields.unscramble.metabolic"
+      description: "代谢风险"
+  structure_type: "data_fields_unscramble"
+
+medical_expertise:
+  domain: "5大疾病风险"
+  keywords: []
+  testing_principle: "核酸分子杂交与信号放大技术"
+  testing_method: "高通量芯片肽核酸探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

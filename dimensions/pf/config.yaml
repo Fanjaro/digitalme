@@ -1,0 +1,36 @@
+dimension:
+  key: "pf"
+  display_name: "皮肤微生物"
+  display_name_en: ""
+  description: "皮肤微生物检测"
+
+sample_id:
+  prefixes: ["PF"]
+  pattern: "^(PF)\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data_fields.appendixList.beneficialData"
+      description: "有益菌数据"
+    - field: "data_fields.appendixList.conditionalPathogenData"
+      description: "条件致病菌"
+    - field: "data_fields.appendixList.harmfulData"
+      description: "有害菌数据"
+  structure_type: "data_fields_appendixList_microbiome"
+
+medical_expertise:
+  domain: "皮肤微生物"
+  keywords: []
+  testing_principle: "抗原抗体特异性结合反应"
+  testing_method: "高通量芯片多肽探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

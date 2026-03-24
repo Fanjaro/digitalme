@@ -1,0 +1,36 @@
+dimension:
+  key: "cd"
+  display_name: "肠道微生物"
+  display_name_en: "Gut Microbiome"
+  description: "肠道菌群丰度结构与多样性检测"
+
+sample_id:
+  prefixes: ["CD"]
+  pattern: "^CD\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "appendix.sections"
+      description: "附录章节列表"
+  structure_type: "appendix_sections"
+
+medical_expertise:
+  domain: "肠道微生物组学"
+  keywords: ["16S rRNA", "菌群多样性", "门水平", "有益菌", "致病菌", "肠型"]
+  testing_principle: "基于菌群基因特异性扩增与比对"
+  testing_method: "高通量芯片肽核酸探针杂交结合生物信息学分析"
+
+report_index:
+  fields:
+    - { name: "diversity", description: "多样性指数" }
+    - { name: "enterotype", description: "肠型类型" }
+    - { name: "beneficial_ratio", description: "有益菌比例" }
+    - { name: "pathogenic_ratio", description: "致病菌比例" }
+
+reference_files:
+  meta_file: "skills/data/肠道微生物_META.json"
+  data_file: "skills/data/肠道微生物_data.json"

@@ -1,0 +1,36 @@
+dimension:
+  key: "zl"
+  display_name: "肿瘤ct-DNA"
+  display_name_en: ""
+  description: "检测外周血中循环肿瘤DNA突变"
+
+sample_id:
+  prefixes: ["ZL"]
+  pattern: "^(ZL)\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data_fields.ctDna"
+      description: "ctDNA汇总"
+    - field: "data_fields.mutations"
+      description: "突变列表"
+    - field: "data_fields.tumorTypes"
+      description: "肿瘤类型列表"
+  structure_type: "data_fields_ctdna"
+
+medical_expertise:
+  domain: "肿瘤ct-DNA"
+  keywords: []
+  testing_principle: "核酸分子杂交与信号放大技术"
+  testing_method: "高通量芯片肽核酸探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

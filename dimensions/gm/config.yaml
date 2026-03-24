@@ -1,0 +1,32 @@
+dimension:
+  key: "gm"
+  display_name: "过敏原IgE"
+  display_name_en: ""
+  description: "过敏原组份蛋白特异性IgE抗体检测"
+
+sample_id:
+  prefixes: ["GM"]
+  pattern: "^(GM)\\d+"
+
+api:
+  version: "v1"
+  extractor_class: "DetailedDataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data.aging"
+      description: "过敏原IgE数据(v1 aging结构)"
+  structure_type: "v1_aging_ige"
+
+medical_expertise:
+  domain: "过敏原IgE"
+  keywords: []
+  testing_principle: "抗原抗体特异性结合反应"
+  testing_method: "高通量芯片多肽探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

@@ -1,0 +1,38 @@
+dimension:
+  key: "smx"
+  display_name: "女性私密微生物"
+  display_name_en: ""
+  description: "检测女性生殖道菌群丰都和微生态环境"
+
+sample_id:
+  prefixes: ["SMX"]
+  pattern: "^(SMX)\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "data_fields.appendixList.bacterial_pathogen"
+      description: "细菌病原体"
+    - field: "data_fields.appendixList.fungal_pathogen"
+      description: "真菌病原体"
+    - field: "data_fields.appendixList.opportunistic"
+      description: "机会致病菌"
+    - field: "data_fields.appendixList.parasitic_pathogen"
+      description: "寄生虫病原体"
+  structure_type: "data_fields_appendixList_bacterial"
+
+medical_expertise:
+  domain: "女性私密微生物"
+  keywords: []
+  testing_principle: "基于菌群基因特异性扩增与比对"
+  testing_method: "高通量芯片肽核酸探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""

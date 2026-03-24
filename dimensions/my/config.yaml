@@ -1,0 +1,32 @@
+dimension:
+  key: "my"
+  display_name: "抗体免疫力"
+  display_name_en: ""
+  description: "检测体液免疫抗体水平和多样性"
+
+sample_id:
+  prefixes: ["MY"]
+  pattern: "^(MY)\\d+"
+
+api:
+  version: "v2"
+  extractor_class: "DataExtractor"
+
+data_extraction:
+  paths:
+    - field: "appendixTable"
+      description: "附录表格数据"
+  structure_type: "appendix_table"
+
+medical_expertise:
+  domain: "抗体免疫力"
+  keywords: []
+  testing_principle: "抗原抗体特异性结合反应"
+  testing_method: "高通量芯片多肽探针杂交结合生物信息学分析"
+
+report_index:
+  fields: []
+
+reference_files:
+  meta_file: ""
+  data_file: ""
