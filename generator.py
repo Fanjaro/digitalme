@@ -668,7 +668,7 @@ def generate_init_py(key: str, display_name: str, structure_type: str) -> str:
                 ("placeholder", "{{messages}}"),
                 ("placeholder", "{{agent_scratchpad}}"),
             ])
-            return create_react_agent(llm=llm, tools={tools_list}, prompt=prompt)
+            return create_react_agent(model=llm, tools={tools_list}, prompt=prompt)
     ''')
 
 

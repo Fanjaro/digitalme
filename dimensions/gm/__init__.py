@@ -22,4 +22,4 @@ def build_agent(llm):
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-    return create_react_agent(llm=llm, tools=[fetch_gm_data, analyze_gm_allergen_risks], prompt=prompt)
+    return create_react_agent(model=llm, tools=[fetch_gm_data, analyze_gm_allergen_risks], prompt=prompt)
