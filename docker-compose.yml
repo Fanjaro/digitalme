@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  digitalme:
+    build: .
+    container_name: digitalme
+    ports:
+      - "8000:8000"
+    environment:
+      # 内部 API 地址
+      - INTERNAL_API_BASE_URL=http://10.1.20.128:30080
+      # Anthropic 配置
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - ANTHROPIC_MODEL=claude-sonnet-4-20250514
+      # 豆包配置（保底模型）
+      - DOUBAO_API_KEY=${DOUBAO_API_KEY}
+      - DOUBAO_BASE_URL=https://ark.cn-beijing.volces.com/api/v3
+      - DOUBAO_MODEL=ep-m-20260308162656-cmtcr
+      # 运行环境
+      - ENV=production
+    volumes:
+      # 挂载本地数据目录到容器内（可选，用于保存输出文件）
+      - ./data:/app/data
+      # 挂载.env文件（可选，方便本地开发）
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
