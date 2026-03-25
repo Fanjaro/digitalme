@@ -2,6 +2,7 @@
 import yaml
 from pathlib import Path
 from langgraph.prebuilt import create_react_agent
+from langchain_core.prompts import ChatPromptTemplate
 from .tools import fetch_sw_data
 
 _DIR = Path(__file__).parent
@@ -16,4 +17,9 @@ def _load_prompt() -> str:
 
 
 def build_agent(llm):
-    return create_react_agent(model=llm, tools=[fetch_sw_data], prompt=_load_prompt())
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", _load_prompt()),
+        ("placeholder", "{messages}"),
+        ("placeholder", "{agent_scratchpad}"),
+    ])
+    return create_react_agent(llm=llm, tools=[fetch_sw_data], prompt=prompt)

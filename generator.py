@@ -648,6 +648,7 @@ def generate_init_py(key: str, display_name: str, structure_type: str) -> str:
         import yaml
         from pathlib import Path
         from langgraph.prebuilt import create_react_agent
+from langchain_core.prompts import ChatPromptTemplate
         {tools_import}
 
         _DIR = Path(__file__).parent
