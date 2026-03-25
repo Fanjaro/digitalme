@@ -33,5 +33,5 @@ EXPOSE 8000
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
-# 默认启动命令（可根据实际需要修改，比如启动API服务）
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# 默认启动命令（FastAPI服务入口在server.py）
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
