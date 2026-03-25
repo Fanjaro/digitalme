@@ -1,7 +1,7 @@
 """SW 食物不耐受IgG dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_agent
+from langgraph.prebuilt import create_agent
 from .tools import fetch_sw_data
 
 _DIR = Path(__file__).parent

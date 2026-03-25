@@ -1,7 +1,7 @@
 """AGING 衰老/亚健康 dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_agent
+from langgraph.prebuilt import create_agent
 from .tools import fetch_aging_data, analyze_aging_risks
 
 _DIR = Path(__file__).parent

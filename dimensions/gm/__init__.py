@@ -1,7 +1,7 @@
 """GM 过敏原IgE dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_agent
+from langgraph.prebuilt import create_agent
 from .tools import fetch_gm_data, analyze_gm_allergen_risks
 
 _DIR = Path(__file__).parent
