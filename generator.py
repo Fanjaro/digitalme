@@ -647,7 +647,7 @@ def generate_init_py(key: str, display_name: str, structure_type: str) -> str:
         """{key.upper()} {display_name} dimension agent."""
         import yaml
         from pathlib import Path
-        from langchain.agents import create_tool_calling_agent
+        from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate
         {tools_import}
 
@@ -668,7 +668,8 @@ from langchain_core.prompts import ChatPromptTemplate
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-    return create_tool_calling_agent(llm=llm, tools={tools_list}, prompt=prompt))
+        agent = create_tool_calling_agent(llm=llm, tools={tools_list}, prompt=prompt)
+    return AgentExecutor(agent=agent, tools={tools_list}, handle_parsing_errors=True))
     ''')
 
 

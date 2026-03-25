@@ -1,7 +1,7 @@
 """SW 食物不耐受IgG dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_tool_calling_agent
+from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain_core.prompts import ChatPromptTemplate
 from .tools import fetch_sw_data
 
@@ -22,4 +22,5 @@ def build_agent(llm):
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-    return create_tool_calling_agent(llm=llm, tools=[fetch_sw_data], prompt=prompt)
+        agent = create_tool_calling_agent(llm=llm, tools=[fetch_sw_data], prompt=prompt)
+    return AgentExecutor(agent=agent, tools=tools, handle_parsing_errors=True)
