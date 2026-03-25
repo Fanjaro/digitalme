@@ -22,5 +22,5 @@ def build_agent(llm):
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-        agent = create_tool_calling_agent(llm=llm, tools=[fetch_aging_data, analyze_aging_risks], prompt=prompt)
-    return AgentExecutor(agent=agent, tools=tools, handle_parsing_errors=True)
+    agent = create_tool_calling_agent(llm=llm, tools=[fetch_aging_data, analyze_aging_risks], prompt=prompt)
+    return AgentExecutor(agent=agent, tools=[fetch_aging_data, analyze_aging_risks], handle_parsing_errors=True)

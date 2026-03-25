@@ -22,5 +22,5 @@ def build_agent(llm):
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-        agent = create_tool_calling_agent(llm=llm, tools=[fetch_gm_data, analyze_gm_allergen_risks], prompt=prompt)
-    return AgentExecutor(agent=agent, tools=tools, handle_parsing_errors=True)
+    agent = create_tool_calling_agent(llm=llm, tools=[fetch_gm_data, analyze_gm_allergen_risks], prompt=prompt)
+    return AgentExecutor(agent=agent, tools=[fetch_gm_data, analyze_gm_allergen_risks], handle_parsing_errors=True)

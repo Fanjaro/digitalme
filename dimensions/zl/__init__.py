@@ -22,5 +22,5 @@ def build_agent(llm):
         ("placeholder", "{messages}"),
         ("placeholder", "{agent_scratchpad}"),
     ])
-        agent = create_tool_calling_agent(llm=llm, tools=[fetch_zl_data], prompt=prompt)
-    return AgentExecutor(agent=agent, tools=tools, handle_parsing_errors=True)
+    agent = create_tool_calling_agent(llm=llm, tools=[fetch_zl_data], prompt=prompt)
+    return AgentExecutor(agent=agent, tools=[fetch_zl_data], handle_parsing_errors=True)
