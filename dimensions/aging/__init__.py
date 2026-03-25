@@ -1,7 +1,8 @@
 """AGING 衰老/亚健康 dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_agent
+from langchain.agents import create_tool_calling_agent
+from langchain_core.prompts import ChatPromptTemplate
 from .tools import fetch_aging_data, analyze_aging_risks
 
 _DIR = Path(__file__).parent
@@ -16,4 +17,9 @@ def _load_prompt() -> str:
 
 
 def build_agent(llm):
-    return create_agent(model=llm, tools=[fetch_aging_data, analyze_aging_risks], prompt=_load_prompt())
+    prompt = ChatPromptTemplate.from_messages([
+        ("system", _load_prompt()),
+        ("placeholder", "{messages}"),
+        ("placeholder", "{agent_scratchpad}"),
+    ])
+    return create_tool_calling_agent(llm=llm, tools=[fetch_aging_data, analyze_aging_risks], prompt=prompt)
