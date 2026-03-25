@@ -647,7 +647,7 @@ def generate_init_py(key: str, display_name: str, structure_type: str) -> str:
         """{key.upper()} {display_name} dimension agent."""
         import yaml
         from pathlib import Path
-        from langgraph.prebuilt import create_agent
+        from langgraph.prebuilt import create_react_agent
         {tools_import}
 
         _DIR = Path(__file__).parent

@@ -1,7 +1,7 @@
 """MY 抗体免疫力 dimension agent."""
 import yaml
 from pathlib import Path
-from langgraph.prebuilt import create_agent
+from langgraph.prebuilt import create_react_agent
 from .tools import fetch_my_data
 
 _DIR = Path(__file__).parent
@@ -16,4 +16,4 @@ def _load_prompt() -> str:
 
 
 def build_agent(llm):
-    return create_agent(model=llm, tools=[fetch_my_data], prompt=_load_prompt())
+    return create_react_agent(model=llm, tools=[fetch_my_data], prompt=_load_prompt())
