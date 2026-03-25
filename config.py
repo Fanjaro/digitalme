@@ -11,7 +11,7 @@ load_dotenv()
 logger = logging.getLogger(__name__)
 
 # ─── 内部 API ───
-INTERNAL_API_BASE = os.getenv("INTERNAL_API_BASE_URL", "http://10.1.20.128:30080")
+INTERNAL_API_BASE = os.getenv("INTERNAL_API_BASE_URL", "http://180.184.28.174:30080")
 API_V1_SAMPLES = f"{INTERNAL_API_BASE}/api/v1/samples/"
 API_V2_SAMPLES = f"{INTERNAL_API_BASE}/api/v2/samples/"
 API_V1_USERS = f"{INTERNAL_API_BASE}/api/v1/users/by-sample/"

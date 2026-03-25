@@ -1,7 +1,7 @@
 {
   "sample_id": "CD888888",
   "extraction_time": "2026-03-18 18:37:04",
-  "source_url": "http://10.1.20.128:30080/api/v2/samples/CD888888",
+  "source_url": "http://180.184.28.174:30080/api/v2/samples/CD888888",
   "status": "success",
   "appendix": {
     "sections": [

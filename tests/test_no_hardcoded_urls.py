@@ -10,7 +10,7 @@ DIMENSIONS_DIR = Path(__file__).parent.parent / "dimensions"
 def test_no_hardcoded_urls_in_tools():
     for tools_file in sorted(DIMENSIONS_DIR.glob("*/tools.py")):
         content = tools_file.read_text()
-        assert "10.1.20.128" not in content, (
+        assert "180.184.28.174" not in content, (
             f"{tools_file.relative_to(DIMENSIONS_DIR.parent)} contains hardcoded URL"
         )
 
@@ -18,7 +18,7 @@ def test_no_hardcoded_urls_in_tools():
 def test_no_hardcoded_urls_in_generator():
     gen_file = Path(__file__).parent.parent / "generator.py"
     content = gen_file.read_text()
-    assert "10.1.20.128" not in content, "generator.py contains hardcoded URL"
+    assert "180.184.28.174" not in content, "generator.py contains hardcoded URL"
 
 
 if __name__ == "__main__":

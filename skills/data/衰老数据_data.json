@@ -1,7 +1,7 @@
 {
   "sample_id": "KS888888",
   "extraction_time": "2026-03-18 18:33:48",
-  "source_url": "http://10.1.20.128:30080/api/v1/samples/KS888888",
+  "source_url": "http://180.184.28.174:30080/api/v1/samples/KS888888",
   "status": "success",
   "report_type": "KS1027",
   "collected_at": "2025-12-02T00:00:00+08:00",

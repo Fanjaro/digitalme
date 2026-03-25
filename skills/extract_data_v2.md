@@ -8,7 +8,7 @@ data_type: JSON
 这是一个用于从指定API接口异步获取样本关联用户元数据信息的技能。该技能调用用户信息接口，提取样本所属用户的个人信息（如姓名、性别、出生日期、身高、体重、联系方式等）以及样本采集时间等元数据。
 
 ## 核心功能
-1.  **获取用户元数据**: 访问 `http://10.1.20.128:30080/api/v1/users/by-sample/{sample_id}` 获取原始JSON数据，并解析出`result.Response.Data`中的有效信息。
+1.  **获取用户元数据**: 访问 `http://180.184.28.174:30080/api/v1/users/by-sample/{sample_id}` 获取原始JSON数据，并解析出`result.Response.Data`中的有效信息。
 2.  **数据解析与增强**: 对原始数据中的时间戳字段（如`_birthday`, `_UpdatedAt`）进行解析，提取可读的日期部分。
 3.  **关键信息输出**: 处理完成后，会在控制台打印关键信息的摘要，如姓名、性别、生日、BMI、采集时间等。
 4.  **批量处理**: 支持通过列表、文件等方式输入多个样本ID，进行并发提取。
@@ -24,7 +24,7 @@ data_type: JSON
 *   `-f, --file` (字符串): 提供一个文本文件路径，文件每行包含一个样本ID。
 
 **其他配置参数：**
-*   `-b, --base-url` (字符串): API基础URL，默认值为 `http://10.1.20.128:30080/api/v1/users/by-sample/`。
+*   `-b, --base-url` (字符串): API基础URL，默认值为 `http://180.184.28.174:30080/api/v1/users/by-sample/`。
 *   `-d, --output-dir` (字符串): 指定JSON文件的输出目录，默认为当前目录。
 *   `-w, --workers` (整数): 设置最大并发工作线程数，默认为5。
 *   `--delay` (浮点数): 设置请求之间的延迟（秒），默认为0.1。
@@ -37,7 +37,7 @@ data_type: JSON
 {
   "sample_id": "SZKL2603161324001",
   "extraction_time": "2024-01-01 12:00:00",
-  "source_url": "http://10.1.20.128:30080/api/v1/users/by-sample/SZKL2603161324001",
+  "source_url": "http://180.184.28.174:30080/api/v1/users/by-sample/SZKL2603161324001",
   "status": "success",
   "name": "张三",
   "sex": 1,

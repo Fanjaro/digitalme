@@ -1,7 +1,7 @@
 {
   "sample_id": "MY888888",
   "extraction_time": "2026-03-18 18:41:37",
-  "source_url": "http://10.1.20.128:30080/api/v1/users/by-sample/MY888888",
+  "source_url": "http://180.184.28.174:30080/api/v1/users/by-sample/MY888888",
   "status": "success",
   "_UpdatedAt": "2026-03-16T17:15:13.869203+08:00",
   "_UserCreatedAt": "2025-07-14T18:30:43.492869+08:00",

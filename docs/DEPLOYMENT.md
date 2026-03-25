@@ -109,7 +109,7 @@ DigitalMe 是一套医学检测数据处理系统，包含两个核心子系统:
 | **Python** | >= 3.10 (推荐 3.12) |
 | **内存** | >= 2 GB |
 | **网络** | 需访问 Anthropic API (`api.anthropic.com`) |
-| **内部 API** | 需访问 `http://10.1.20.128:30080` (Real 模式) |
+| **内部 API** | 需访问 `http://180.184.28.174:30080` (Real 模式) |
 
 ### 3.2 外部服务依赖
 
@@ -196,7 +196,7 @@ cp .env.example .env
 ANTHROPIC_API_KEY=sk-ant-api03-xxxxxxxxxxxxxxxx
 
 # [必填-Real模式] 内部数据 API 地址
-INTERNAL_API_BASE_URL=http://10.1.20.128:30080
+INTERNAL_API_BASE_URL=http://180.184.28.174:30080
 
 # [可选] 覆盖默认模型 (默认: claude-sonnet-4-20250514)
 # ANTHROPIC_MODEL=claude-sonnet-4-20250514
@@ -205,7 +205,7 @@ INTERNAL_API_BASE_URL=http://10.1.20.128:30080
 | 变量 | 默认值 | 说明 |
 |------|--------|------|
 | `ANTHROPIC_API_KEY` | (无) | Anthropic API 密钥，Real 模式必填 |
-| `INTERNAL_API_BASE_URL` | `http://10.1.20.128:30080` | 内部样本数据 API 基地址 |
+| `INTERNAL_API_BASE_URL` | `http://180.184.28.174:30080` | 内部样本数据 API 基地址 |
 | `ANTHROPIC_MODEL` | `claude-sonnet-4-20250514` | Claude 模型 ID |
 
 ### 5.2 配置文件层级
@@ -590,7 +590,7 @@ digitalme/
 |------|------|----------|
 | `ModuleNotFoundError: No module named 'langgraph'` | 依赖未安装 | `pip install -r requirements.txt` |
 | `AuthenticationError: Invalid API Key` | ANTHROPIC_API_KEY 未配置或无效 | 检查 `.env` 文件中的密钥 |
-| `ConnectionRefusedError: 10.1.20.128:30080` | 内部 API 不可达 | 确认网络连通性，或使用 `--mock` 模式 |
+| `ConnectionRefusedError: 180.184.28.174:30080` | 内部 API 不可达 | 确认网络连通性，或使用 `--mock` 模式 |
 | 页面打开空白 | `static/` 目录缺失 | 确认 `static/chat.html` 存在 |
 | WebSocket 连接失败 | 端口被占用或防火墙拦截 | `lsof -i :8000` 检查端口; 检查安全组规则 |
 | `asyncio` 相关错误 | Python 版本过低 | 确认 Python >= 3.10 |

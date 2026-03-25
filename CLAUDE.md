@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-DigitalMe 是一套医学检测数据处理流水线，从内部 API（`http://10.1.20.128:30080`）提取原始 JSON 数据，经过预处理和 AI 转换，生成标准化的直测数据模板（measurement template），用于健康检测报告。
+DigitalMe 是一套医学检测数据处理流水线，从内部 API（`http://180.184.28.174:30080`）提取原始 JSON 数据，经过预处理和 AI 转换，生成标准化的直测数据模板（measurement template），用于健康检测报告。
 
 项目以 Python "Skill" 为单位组织，每个 Skill 负责一类医学检测数据的处理。
 

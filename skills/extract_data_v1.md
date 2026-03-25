@@ -9,7 +9,7 @@ data_type: JSON
 这是一个用于从指定API接口异步获取样本详细检测结果数据的技能。该技能会调用 `v1` 版本的样本接口，主要提取并结构化处理`v13_results`中的各类老化机制、器官老化、系统老化等详细数据，并输出为结构化的JSON文件。
 
 ## 核心功能
-1.  **获取详细数据**: 访问 `http://10.1.20.128:30080/api/v1/samples/{sample_id}` 获取原始JSON数据。
+1.  **获取详细数据**: 访问 `http://180.184.28.174:30080/api/v1/samples/{sample_id}` 获取原始JSON数据。
 2.  **结构化提取**: 从原始数据的 `data.v13_results` 路径中提取数据，并按`大类 -> 子类 -> 字段`的层次重新组织。
 3.  **数据丰富**: 为每个子类数据添加类型标识（如 `organ_aging`, `system_aging`, `aging_mechanism`），并计算字段长度、风险蛋白比例等统计信息。
 4.  **批量处理**: 支持通过列表、文件等方式输入多个样本ID，进行并发提取，提升效率。
@@ -25,7 +25,7 @@ data_type: JSON
 *   `-f, --file` (字符串): 提供一个文本文件路径，文件每行包含一个样本ID。
 
 **其他配置参数：**
-*   `-b, --base-url` (字符串): API基础URL，默认值为 `http://10.1.20.128:30080/api/v1/samples/`。
+*   `-b, --base-url` (字符串): API基础URL，默认值为 `http://180.184.28.174:30080/api/v1/samples/`。
 *   `-d, --output-dir` (字符串): 指定JSON文件的输出目录，默认为当前目录。
 *   `-w, --workers` (整数): 设置最大并发工作线程数，默认为5。
 *   `--delay` (浮点数): 设置请求之间的延迟（秒），默认为0.1，用于控制请求频率。
@@ -38,7 +38,7 @@ data_type: JSON
 {
   "sample_id": "SZKL2603161324001",
   "extraction_time": "2024-01-01 12:00:00",
-  "source_url": "http://10.1.20.128:30080/api/v1/samples/SZKL2603161324001",
+  "source_url": "http://180.184.28.174:30080/api/v1/samples/SZKL2603161324001",
   "report_type": "standard",
   "collected_at": "2023-12-31",
   "status": "success",

@@ -2,7 +2,7 @@
 """
 附录数据提取脚本
 用于从API接口提取样本的附录/补充数据
-接口: http://10.1.20.128:30080/api/v2/samples/{sample_id}
+接口: http://180.184.28.174:30080/api/v2/samples/{sample_id}
 输出: {sample_id}_data.json
 """
 
@@ -17,7 +17,7 @@ from pathlib import Path
 import time
 
 class DataExtractor:
-    def __init__(self, base_url: str = "http://10.1.20.128:30080/api/v2/samples/"):
+    def __init__(self, base_url: str = "http://180.184.28.174:30080/api/v2/samples/"):
         """
         初始化数据提取器
         
@@ -400,7 +400,7 @@ def main():
     parser.add_argument('-m', '--multiple', help='逗号分隔的多个样本ID')
     parser.add_argument('-f', '--file', help='包含样本ID列表的文件路径')
     
-    parser.add_argument('-b', '--base-url', default="http://10.1.20.128:30080/api/v2/samples/",
+    parser.add_argument('-b', '--base-url', default="http://180.184.28.174:30080/api/v2/samples/",
                        help='API基础URL（默认: %(default)s）')
     parser.add_argument('-d', '--output-dir', help='输出目录（默认为当前目录）')
     parser.add_argument('-w', '--workers', type=int, default=5,

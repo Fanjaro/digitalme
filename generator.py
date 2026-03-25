@@ -648,7 +648,7 @@ def generate_init_py(key: str, display_name: str, structure_type: str) -> str:
         import yaml
         from pathlib import Path
         from langgraph.prebuilt import create_react_agent
-from langchain_core.prompts import ChatPromptTemplate
+        from langchain_core.prompts import ChatPromptTemplate
         {tools_import}
 
         _DIR = Path(__file__).parent
@@ -664,12 +664,11 @@ from langchain_core.prompts import ChatPromptTemplate
 
         def build_agent(llm):
             prompt = ChatPromptTemplate.from_messages([
-        ("system", _load_prompt()),
-        ("placeholder", "{messages}"),
-        ("placeholder", "{agent_scratchpad}"),
-    ])
-        agent = create_tool_calling_agent(llm=llm, tools={tools_list}, prompt=prompt)
-    return AgentExecutor(agent=agent, tools={tools_list}, handle_parsing_errors=True))
+                ("system", _load_prompt()),
+                ("placeholder", "{{messages}}"),
+                ("placeholder", "{{agent_scratchpad}}"),
+            ])
+            return create_react_agent(llm=llm, tools={tools_list}, prompt=prompt)
     ''')
 
 
