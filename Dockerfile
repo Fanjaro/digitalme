@@ -20,8 +20,8 @@ RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple \
 # 复制 requirements.txt（单独复制这层，利用Docker缓存，不用每次改代码都重新装依赖）
 COPY requirements.txt .
 
-# 安装 Python 依赖
-RUN pip install --no-cache-dir -r requirements.txt
+# 安装 Python 依赖，包含uvicorn的WebSocket支持
+RUN pip install --no-cache-dir -r requirements.txt uvicorn[standard]
 
 # 复制项目代码
 COPY . .
