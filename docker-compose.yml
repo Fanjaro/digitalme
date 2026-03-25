@@ -3,7 +3,6 @@ version: '3.8'
 services:
   digitalme:
     build: .
-    container_name: digitalme
     ports:
       - "8000:8000"
     environment:
