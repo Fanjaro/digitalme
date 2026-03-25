@@ -1,8 +1,7 @@
 """SMX 女性私密微生物 dimension agent."""
 import yaml
 from pathlib import Path
-from langchain.agents import create_tool_calling_agent, AgentExecutor
-from langchain_core.prompts import ChatPromptTemplate
+from langchain.agents import create_agent
 from .tools import fetch_smx_data
 
 _DIR = Path(__file__).parent
@@ -17,10 +16,4 @@ def _load_prompt() -> str:
 
 
 def build_agent(llm):
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", _load_prompt()),
-        ("placeholder", "{messages}"),
-        ("placeholder", "{agent_scratchpad}"),
-    ])
-    agent = create_tool_calling_agent(llm=llm, tools=[fetch_smx_data], prompt=prompt)
-    return AgentExecutor(agent=agent, tools=[fetch_smx_data], handle_parsing_errors=True)
+    return create_agent(model=llm, tools=[fetch_smx_data], prompt=_load_prompt())
